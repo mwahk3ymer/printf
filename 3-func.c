@@ -172,7 +172,7 @@ int print_rot13string(va_list types, char buffer[],
 			if (in[t] == str[s])
 			{
 				b = out[t];
-				write(1, &y, 1);
+				write(1, &b, 1);
 				count++;
 				break;
 			}
